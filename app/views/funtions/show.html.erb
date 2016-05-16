@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Movie:</strong>
+  <%= @funtion.movie_id %>
+</p>
+
+<p>
+  <strong>Hora:</strong>
+  <%= @funtion.hora %>
+</p>
+
+<p>
+  <strong>Sala:</strong>
+  <%= @funtion.sala %>
+</p>
+
+<%= link_to 'Edit', edit_funtion_path(@funtion) %> |
+<%= link_to 'Back', funtions_path %>
